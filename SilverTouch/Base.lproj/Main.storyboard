@@ -1,24 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ssA-L3-o3l">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="SilverTouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gX2-sD-vCP">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="co8-Fm-tJX">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MR3-Oj-J4L">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="900"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="XQy-Ff-3fB">
+                                                        <rect key="frame" x="16" y="5" width="361" height="890"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ff-Pl-has">
+                                                                <rect key="frame" x="0.0" y="0.0" width="361" height="85"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled" title="Hey - Screen">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                                    <color key="baseBackgroundColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="0.80431547619999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eni-Bg-90K">
+                                                                <rect key="frame" x="0.0" y="115" width="361" height="85"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled" title="Biometric - Screen">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                                    <color key="baseBackgroundColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="0.80431547619999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gop-kT-MaW">
+                                                                <rect key="frame" x="0.0" y="230" width="361" height="85"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled" title="Fheory - Screen">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                                    <color key="baseBackgroundColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="0.80431547619999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyt-qQ-573">
+                                                                <rect key="frame" x="0.0" y="345" width="361" height="85"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled" title="Color Change - Screen">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                                    <color key="baseBackgroundColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="0.80431547619999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHB-Q1-kRO">
+                                                                <rect key="frame" x="0.0" y="460" width="361" height="85"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled" title="Stack Example - Screen">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                                    <color key="baseBackgroundColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="0.80431547619999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="838-4h-70V">
+                                                                <rect key="frame" x="0.0" y="575" width="361" height="85"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled" title="STTL - SingIn">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                                    <color key="baseBackgroundColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="0.80431547619999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TS9-IA-Rzc">
+                                                                <rect key="frame" x="0.0" y="690" width="361" height="85"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled" title="STTL - SignUp">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                                    <color key="baseBackgroundColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="0.80431547619999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyF-A4-BtT">
+                                                                <rect key="frame" x="0.0" y="805" width="361" height="85"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled" title="Prashar-Bharti - SignIn">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                                    <color key="baseBackgroundColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="0.80431547619999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="XQy-Ff-3fB" firstAttribute="centerX" secondItem="MR3-Oj-J4L" secondAttribute="centerX" id="BHg-7B-zpu"/>
+                                                    <constraint firstItem="XQy-Ff-3fB" firstAttribute="leading" secondItem="MR3-Oj-J4L" secondAttribute="leading" constant="16" id="IYD-dI-1cv"/>
+                                                    <constraint firstAttribute="bottom" secondItem="XQy-Ff-3fB" secondAttribute="bottom" constant="5" id="KY7-YL-WXQ"/>
+                                                    <constraint firstAttribute="height" constant="900" id="bBc-xj-074"/>
+                                                    <constraint firstItem="XQy-Ff-3fB" firstAttribute="top" secondItem="MR3-Oj-J4L" secondAttribute="top" constant="5" id="gdY-Z7-41l"/>
+                                                    <constraint firstAttribute="trailing" secondItem="XQy-Ff-3fB" secondAttribute="trailing" constant="16" id="vGb-T0-CYy"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="MR3-Oj-J4L" secondAttribute="trailing" id="GdA-sJ-1jO"/>
+                                            <constraint firstItem="MR3-Oj-J4L" firstAttribute="leading" secondItem="co8-Fm-tJX" secondAttribute="leading" id="KpC-56-upP"/>
+                                            <constraint firstItem="MR3-Oj-J4L" firstAttribute="width" secondItem="co8-Fm-tJX" secondAttribute="width" id="Zv7-Di-X1p"/>
+                                            <constraint firstItem="MR3-Oj-J4L" firstAttribute="top" secondItem="co8-Fm-tJX" secondAttribute="top" id="hm4-i1-7Fi"/>
+                                            <constraint firstAttribute="bottom" secondItem="MR3-Oj-J4L" secondAttribute="bottom" id="z0q-m9-Yqu"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="co8-Fm-tJX" secondAttribute="trailing" id="9OY-nj-HED"/>
+                                    <constraint firstItem="co8-Fm-tJX" firstAttribute="top" secondItem="gX2-sD-vCP" secondAttribute="top" id="KPT-Go-fgF"/>
+                                    <constraint firstAttribute="bottom" secondItem="co8-Fm-tJX" secondAttribute="bottom" id="ZJ1-5n-NwE"/>
+                                    <constraint firstItem="co8-Fm-tJX" firstAttribute="leading" secondItem="gX2-sD-vCP" secondAttribute="leading" id="tcy-mE-Ag5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gX2-sD-vCP" secondAttribute="trailing" id="7FP-Fq-5SC"/>
+                            <constraint firstItem="gX2-sD-vCP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UkG-KF-uOR"/>
+                            <constraint firstItem="gX2-sD-vCP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="e7r-aw-HOB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gX2-sD-vCP" secondAttribute="bottom" id="sTL-2t-Vkk"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="lJS-I7-X1L"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1049.6183206106871" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9BN-v1-zmH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ssA-L3-o3l" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mv9-uO-zoh">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Dx1-dU-xbD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ci7-4u-5yZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122.90076335877862" y="-2.1126760563380285"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
