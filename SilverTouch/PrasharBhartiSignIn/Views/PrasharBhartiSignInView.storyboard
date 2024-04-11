@@ -38,10 +38,10 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PTk-fC-cOH">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="680"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="681"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pDi-bv-llN">
-                                                        <rect key="frame" x="22" y="40" width="276" height="600"/>
+                                                        <rect key="frame" x="22" y="40" width="276" height="601"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="mx2-Ny-Z6k">
                                                                 <rect key="frame" x="69" y="33" width="138" height="100"/>
@@ -155,7 +155,7 @@
                                                                     <action selector="RememberMeTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="pNH-QE-Yt5"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tco-Sp-1Nz">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tco-Sp-1Nz">
                                                                 <rect key="frame" x="180.5" y="343" width="79.5" height="26.5"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal">
@@ -207,24 +207,24 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="g2d-vw-9dE">
-                                                                <rect key="frame" x="31.5" y="540" width="213" height="30"/>
+                                                                <rect key="frame" x="29.5" y="540" width="217.5" height="31"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l19-pp-UWJ">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="142.5" height="30"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="142.5" height="31"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hli-wW-hfg">
-                                                                        <rect key="frame" x="142.5" y="0.0" width="70.5" height="30"/>
+                                                                        <rect key="frame" x="142.5" y="0.0" width="75" height="31"/>
                                                                         <state key="normal" title="Button"/>
                                                                         <buttonConfiguration key="configuration" style="plain" titleAlignment="automatic">
                                                                             <attributedString key="attributedSubtitle">
                                                                                 <fragment content="Sign Up">
                                                                                     <attributes>
                                                                                         <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                                        <font key="NSFont" size="14" name=".SFNS-Bold"/>
-                                                                                        <font key="NSOriginalFont" size="14" name=".SFNS-Bold"/>
+                                                                                        <font key="NSFont" metaFont="system" size="14"/>
+                                                                                        <font key="NSOriginalFont" metaFont="system" size="14"/>
                                                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                                         <integer key="NSUnderline" value="1"/>
                                                                                     </attributes>
@@ -364,7 +364,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
