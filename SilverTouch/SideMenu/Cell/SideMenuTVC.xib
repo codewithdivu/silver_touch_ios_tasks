@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="66" id="KGk-i7-Jjw" customClass="SideMenuTVC" customModule="SilverTouch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uUI-3J-IlZ">
+                        <rect key="frame" x="0.0" y="0.0" width="365" height="66"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dashboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPT-nR-XE5">
+                                <rect key="frame" x="62.666666666666657" y="10" width="286.33333333333337" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speedometer" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7w3-9G-nxB">
+                                <rect key="frame" x="10" y="8.3333333333333321" width="36.666666666666664" height="35.000000000000014"/>
+                                <color key="tintColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7w3-9G-nxB" secondAttribute="height" multiplier="1:1" id="l4b-1H-2Ew"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LQ9-Nx-zgB">
+                                <rect key="frame" x="62.666666666666657" y="57" width="302.33333333333337" height="1"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="g85-Aq-tDn"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cPT-nR-XE5" firstAttribute="top" secondItem="uUI-3J-IlZ" secondAttribute="top" constant="10" id="1ke-dS-uh4"/>
+                            <constraint firstItem="7w3-9G-nxB" firstAttribute="centerY" secondItem="cPT-nR-XE5" secondAttribute="centerY" id="Flg-t9-m5t"/>
+                            <constraint firstAttribute="trailing" secondItem="cPT-nR-XE5" secondAttribute="trailing" constant="16" id="NBr-vA-TeA"/>
+                            <constraint firstItem="7w3-9G-nxB" firstAttribute="leading" secondItem="uUI-3J-IlZ" secondAttribute="leading" constant="10" id="QCu-c2-bOL"/>
+                            <constraint firstItem="LQ9-Nx-zgB" firstAttribute="top" secondItem="cPT-nR-XE5" secondAttribute="bottom" constant="16" id="YDg-Hg-fKf"/>
+                            <constraint firstItem="LQ9-Nx-zgB" firstAttribute="leading" secondItem="cPT-nR-XE5" secondAttribute="leading" id="cdW-Z5-MUI"/>
+                            <constraint firstAttribute="bottom" secondItem="LQ9-Nx-zgB" secondAttribute="bottom" constant="8" id="fbA-Kp-UUJ"/>
+                            <constraint firstAttribute="trailing" secondItem="LQ9-Nx-zgB" secondAttribute="trailing" id="gIX-CT-6MZ"/>
+                            <constraint firstItem="cPT-nR-XE5" firstAttribute="leading" secondItem="7w3-9G-nxB" secondAttribute="trailing" constant="16" id="jly-Kd-tX2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="uUI-3J-IlZ" secondAttribute="trailing" id="2tZ-Mk-1bF"/>
+                    <constraint firstAttribute="bottom" secondItem="uUI-3J-IlZ" secondAttribute="bottom" id="9r0-Ul-sw1"/>
+                    <constraint firstItem="uUI-3J-IlZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="KD1-3Y-S8M"/>
+                    <constraint firstItem="7w3-9G-nxB" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.1" id="f0N-RU-wV3"/>
+                    <constraint firstItem="uUI-3J-IlZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="qQw-V7-dzN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblTitle" destination="cPT-nR-XE5" id="gBD-1p-IZn"/>
+            </connections>
+            <point key="canvasLocation" x="171.75572519083968" y="41.549295774647888"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="speedometer" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

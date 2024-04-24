@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--BiometricVC-->
+        <scene sceneID="TUT-KV-XAo">
+            <objects>
+                <viewController storyboardIdentifier="BiometricVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1Cr-HC-bxg" customClass="BiometricVC" customModule="SilverTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pgm-VT-z93">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0dS-gR-mwI">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJN-ab-RW9">
+                                        <rect key="frame" x="15.999999999999996" y="0.0" width="61.666666666666657" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Back">
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="backTapped:" destination="1Cr-HC-bxg" eventType="touchUpInside" id="mKw-8P-YUZ"/>
+                                        </connections>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3ga-Go-6mt">
+                                        <rect key="frame" x="16" y="187.66666666666663" width="361" height="140"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zV0-j7-044">
+                                                <rect key="frame" x="0.0" y="0.0" width="361" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="zV0-j7-044" secondAttribute="height" multiplier="361:60" id="DJF-Jh-1zJ"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Login">
+                                                    <backgroundConfiguration key="background" cornerRadius="20"/>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                                    <color key="baseForegroundColor" red="1" green="0.74207588589999995" blue="0.20444131060000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="HandleLoginAction:" destination="1Cr-HC-bxg" eventType="touchUpInside" id="4Nl-Tn-f2f"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Dh-8m-653">
+                                                <rect key="frame" x="0.0" y="80.000000000000028" width="361" height="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Registration now">
+                                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Login with Touch ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0d1-Xj-z03">
+                                        <rect key="frame" x="16" y="367.66666666666669" width="361" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="biometric" translatesAutoresizingMaskIntoConstraints="NO" id="7Y7-rJ-of9">
+                                        <rect key="frame" x="147.33333333333334" y="421.66666666666669" width="98.333333333333343" height="98.000000000000057"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="7Y7-rJ-of9" secondAttribute="height" multiplier="1:1" id="NBv-Tg-CoY"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMr-Cl-sEr">
+                                        <rect key="frame" x="157.33333333333334" y="559.66666666666663" width="78.666666666666657" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.58431372550000005" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="KMr-Cl-sEr" firstAttribute="centerX" secondItem="0dS-gR-mwI" secondAttribute="centerX" id="84c-X6-p9B"/>
+                                    <constraint firstItem="3ga-Go-6mt" firstAttribute="leading" secondItem="0dS-gR-mwI" secondAttribute="leading" constant="16" id="Lv6-sa-EMq"/>
+                                    <constraint firstItem="TJN-ab-RW9" firstAttribute="leading" secondItem="0dS-gR-mwI" secondAttribute="leading" constant="16" id="MGT-bx-JoN"/>
+                                    <constraint firstItem="0d1-Xj-z03" firstAttribute="centerX" secondItem="0dS-gR-mwI" secondAttribute="centerX" id="Nql-cT-j8t"/>
+                                    <constraint firstItem="3ga-Go-6mt" firstAttribute="top" relation="greaterThanOrEqual" secondItem="0dS-gR-mwI" secondAttribute="top" constant="5" id="NuS-ql-4fB"/>
+                                    <constraint firstItem="TJN-ab-RW9" firstAttribute="top" secondItem="0dS-gR-mwI" secondAttribute="top" id="Xl9-6l-RXr"/>
+                                    <constraint firstItem="0d1-Xj-z03" firstAttribute="top" secondItem="3ga-Go-6mt" secondAttribute="bottom" constant="40" id="hRc-LP-DIS"/>
+                                    <constraint firstAttribute="trailing" secondItem="3ga-Go-6mt" secondAttribute="trailing" constant="16" id="he2-t8-kMp"/>
+                                    <constraint firstItem="TJN-ab-RW9" firstAttribute="top" secondItem="0dS-gR-mwI" secondAttribute="top" id="hgc-lB-Oqd"/>
+                                    <constraint firstItem="KMr-Cl-sEr" firstAttribute="top" secondItem="7Y7-rJ-of9" secondAttribute="bottom" constant="40" id="iJk-4R-SGM"/>
+                                    <constraint firstAttribute="trailing" secondItem="0d1-Xj-z03" secondAttribute="trailing" constant="16" id="iTJ-jQ-6Go"/>
+                                    <constraint firstItem="0d1-Xj-z03" firstAttribute="centerY" secondItem="0dS-gR-mwI" secondAttribute="centerY" id="ixc-Lk-gjP"/>
+                                    <constraint firstItem="7Y7-rJ-of9" firstAttribute="centerX" secondItem="0dS-gR-mwI" secondAttribute="centerX" id="lXt-8W-tr0"/>
+                                    <constraint firstItem="3ga-Go-6mt" firstAttribute="centerX" secondItem="0dS-gR-mwI" secondAttribute="centerX" id="nrl-KW-xNR"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="KMr-Cl-sEr" secondAttribute="bottom" constant="5" id="oJr-70-up5"/>
+                                    <constraint firstItem="7Y7-rJ-of9" firstAttribute="top" secondItem="0d1-Xj-z03" secondAttribute="bottom" constant="30" id="p10-uL-OIF"/>
+                                    <constraint firstItem="0d1-Xj-z03" firstAttribute="leading" secondItem="0dS-gR-mwI" secondAttribute="leading" constant="16" id="sK9-lG-Xxe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nVY-J3-dYf"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="nVY-J3-dYf" firstAttribute="bottom" secondItem="0dS-gR-mwI" secondAttribute="bottom" id="19M-TE-pde"/>
+                            <constraint firstItem="0dS-gR-mwI" firstAttribute="leading" secondItem="nVY-J3-dYf" secondAttribute="leading" id="AQu-YZ-nrR"/>
+                            <constraint firstItem="0dS-gR-mwI" firstAttribute="top" secondItem="nVY-J3-dYf" secondAttribute="top" id="c0M-cL-EWW"/>
+                            <constraint firstItem="7Y7-rJ-of9" firstAttribute="width" secondItem="pgm-VT-z93" secondAttribute="width" multiplier="0.25" id="dNK-Fp-MFf"/>
+                            <constraint firstItem="nVY-J3-dYf" firstAttribute="trailing" secondItem="0dS-gR-mwI" secondAttribute="trailing" id="zXD-ap-I9R"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hM2-r7-nuw"/>
+                    <connections>
+                        <outlet property="RegistraionBtn" destination="3Dh-8m-653" id="hOI-l7-0KI"/>
+                        <outlet property="mainView" destination="pgm-VT-z93" id="Tdp-0L-AjF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PYK-Kk-dRr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1168.7022900763359" y="-168.3098591549296"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="biometric" width="170.66667175292969" height="170.66667175292969"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

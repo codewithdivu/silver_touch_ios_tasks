@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Color ScreenVC-->
+        <scene sceneID="6Vc-x7-OSb">
+            <objects>
+                <viewController storyboardIdentifier="ColorScreenVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hTb-Ky-8Nj" customClass="ColorScreenVC" customModule="SilverTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hfO-9z-nvK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bd-7T-myr">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZk-f0-816">
+                                        <rect key="frame" x="15.999999999999996" y="10" width="61.666666666666657" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Back">
+                                            <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="BackTapped:" destination="hTb-Ky-8Nj" eventType="touchUpInside" id="DiD-2P-ZEX"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What would you like?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCQ-As-10N">
+                                        <rect key="frame" x="16" y="254.33333333333331" width="361" height="42"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GSf-JS-QaK">
+                                        <rect key="frame" x="16" y="346.33333333333331" width="361" height="66.333333333333314"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ReS-6K-wpI">
+                                                <rect key="frame" x="0.0" y="0.0" width="165.66666666666666" height="66.333333333333329"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="ReS-6K-wpI" secondAttribute="height" multiplier="15:6" id="c5K-nq-h6Q"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="COOL">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                    <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="HandleCoolTapped:" destination="hTb-Ky-8Nj" eventType="touchUpInside" id="eSR-yC-ObZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7x-ff-7cI">
+                                                <rect key="frame" x="195.66666666666663" y="0.0" width="165.33333333333337" height="66.333333333333329"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="WARM">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                    <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="HandleWarmTapped:" destination="hTb-Ky-8Nj" eventType="touchUpInside" id="ugm-aR-TqP"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="GSf-JS-QaK" firstAttribute="top" secondItem="KCQ-As-10N" secondAttribute="bottom" constant="20" id="6Oh-P0-Irc"/>
+                                    <constraint firstItem="GSf-JS-QaK" firstAttribute="centerY" secondItem="3bd-7T-myr" secondAttribute="centerY" id="6T0-uz-zcs"/>
+                                    <constraint firstItem="GSf-JS-QaK" firstAttribute="leading" secondItem="3bd-7T-myr" secondAttribute="leading" constant="16" id="KWg-DF-0Lo"/>
+                                    <constraint firstItem="KCQ-As-10N" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dZk-f0-816" secondAttribute="bottom" constant="5" id="Rlw-My-8He"/>
+                                    <constraint firstAttribute="trailing" secondItem="KCQ-As-10N" secondAttribute="trailing" constant="16" id="THd-Hf-AJH"/>
+                                    <constraint firstItem="GSf-JS-QaK" firstAttribute="top" secondItem="KCQ-As-10N" secondAttribute="bottom" constant="50" id="dY8-u9-h0O"/>
+                                    <constraint firstItem="dZk-f0-816" firstAttribute="leading" secondItem="3bd-7T-myr" secondAttribute="leading" constant="16" id="e6P-gk-fWe"/>
+                                    <constraint firstItem="dZk-f0-816" firstAttribute="top" secondItem="3bd-7T-myr" secondAttribute="top" constant="10" id="fbC-Ru-ooN"/>
+                                    <constraint firstAttribute="trailing" secondItem="GSf-JS-QaK" secondAttribute="trailing" constant="16" id="gWU-P4-dIb"/>
+                                    <constraint firstItem="GSf-JS-QaK" firstAttribute="centerX" secondItem="3bd-7T-myr" secondAttribute="centerX" id="kDd-b2-JCb"/>
+                                    <constraint firstItem="KCQ-As-10N" firstAttribute="leading" secondItem="3bd-7T-myr" secondAttribute="leading" constant="16" id="v1P-ez-xOf"/>
+                                    <constraint firstItem="KCQ-As-10N" firstAttribute="centerX" secondItem="3bd-7T-myr" secondAttribute="centerX" id="zOM-oW-yMx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nda-L5-lsY"/>
+                        <color key="backgroundColor" red="0.39159851350000002" green="0.76942896839999997" blue="0.38194041899999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="3bd-7T-myr" firstAttribute="top" secondItem="nda-L5-lsY" secondAttribute="top" id="78R-Pn-lNe"/>
+                            <constraint firstItem="nda-L5-lsY" firstAttribute="trailing" secondItem="3bd-7T-myr" secondAttribute="trailing" id="RD0-P6-Tb3"/>
+                            <constraint firstItem="3bd-7T-myr" firstAttribute="leading" secondItem="nda-L5-lsY" secondAttribute="leading" id="aTL-yD-4Rn"/>
+                            <constraint firstItem="nda-L5-lsY" firstAttribute="bottom" secondItem="3bd-7T-myr" secondAttribute="bottom" id="w2E-QY-hWE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="MainView" destination="hfO-9z-nvK" id="7CH-lB-DSD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6av-SG-MeC" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1524" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

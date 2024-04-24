@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PrasharBhartiSignInVC: UIViewController {
+class PrasharBhartiSignInVC: UIViewController, UITextFieldDelegate {
 
     // views outlets
     @IBOutlet weak var mainView: UIView!
@@ -32,6 +32,10 @@ class PrasharBhartiSignInVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        passwordField.delegate = self
+        emailField.delegate = self
+        
+        passwordField.isSecureTextEntry = true
         
         errorView.isHidden = true
         mainView.layer.cornerRadius = 10.0
@@ -44,11 +48,18 @@ class PrasharBhartiSignInVC: UIViewController {
         emailField.layer.cornerRadius = 7.0
         emailField.layer.borderColor = UIColor.lightGray.cgColor
         
-        skipBtn.addUnderline(title: "SKIP", color: .black)
+
+        skipBtn.addUnderline(title: "SKIP",font: UIFont.systemFont(ofSize: 16), color: .black)
+        forgotPasswordBtn.addUnderline(title: "Forgot Password",font: UIFont.systemFont(ofSize: 12), color: .red)
+        
+        
+        
         
         // for scroll down little bit when user touch to password field
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(scrollDown))
         passwordField.addGestureRecognizer(tapGesture)
+        
+        
         
         // for giving shadow to error view
         errorView.layer.shadowColor = UIColor.black.cgColor
@@ -58,8 +69,22 @@ class PrasharBhartiSignInVC: UIViewController {
     
     }
     
-    // methods
+    // METHODS
     
+    // when user press enter in password field keyboard
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if(textField == emailField){
+            emailField.resignFirstResponder()
+            passwordField.becomeFirstResponder()
+            let offset: CGFloat = 100
+            scrollView.setContentOffset(CGPoint(x: 0, y: offset), animated: true)
+        }else{
+            let offset: CGFloat = -10
+            scrollView.setContentOffset(CGPoint(x: 0, y: offset), animated: true)
+            passwordField.resignFirstResponder()
+        }
+        return true
+       }
 
     // remember me tapped
     @IBAction func RememberMeTapped(_ sender: UIButton) {
@@ -85,14 +110,17 @@ class PrasharBhartiSignInVC: UIViewController {
     @IBAction func SignInTapped(_ sender: Any) {
         guard let email = emailField.text, !email.isEmpty else {
             showError(message: "Please enter your email.")
+            emailField.becomeFirstResponder()
                return
            }
         guard isValidEmail(email) else {
             showError(message: "Please enter a valid email address.")
+            emailField.becomeFirstResponder()
             return
         }
         guard let password = passwordField.text, !password.isEmpty else {
             showError(message: "Please enter your password.")
+            passwordField.becomeFirstResponder()
                 return
             }
     }

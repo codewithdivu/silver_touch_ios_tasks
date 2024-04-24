@@ -1,0 +1,81 @@
+{
+  "msg": "Success msg",
+  "students": [
+    {
+      "name": "Divyesh Mavadiya",
+      "dob": "17-08-2003",
+      "department": "ios"
+    },
+    {
+      "name": "Priya Patel",
+      "dob": "05-12-2002",
+      "department": "android"
+    },
+    {
+      "name": "Rahul Sharma",
+      "dob": "20-04-2001",
+      "department": "web"
+    },
+    {
+      "name": "Ananya Gupta",
+      "dob": "10-09-2004",
+      "department": "backend"
+    },
+    {
+      "name": "Amit Singh",
+      "dob": "15-07-2000",
+      "department": "frontend"
+    },
+    {
+      "name": "Neha Verma",
+      "dob": "25-03-2003",
+      "department": "ios"
+    },
+    {
+      "name": "Karan Mehta",
+      "dob": "08-11-2002",
+      "department": "android"
+    },
+    {
+      "name": "Sneha Sharma",
+      "dob": "12-06-2001",
+      "department": "web"
+    },
+    {
+      "name": "Vikram Patel",
+      "dob": "30-01-2004",
+      "department": "backend"
+    },
+    {
+      "name": "Anjali Gupta",
+      "dob": "14-10-2000",
+      "department": "frontend"
+    },
+    {
+      "name": "Rajesh Kumar",
+      "dob": "19-05-2003",
+      "department": "ios"
+    },
+    {
+      "name": "Ritu Singh",
+      "dob": "07-09-2002",
+      "department": "android"
+    },
+    {
+      "name": "Aryan Sharma",
+      "dob": "23-02-2001",
+      "department": "web"
+    },
+    {
+      "name": "Pooja Verma",
+      "dob": "11-11-2004",
+      "department": "backend"
+    },
+    {
+      "name": "Rakesh Patel",
+      "dob": "06-04-2000",
+      "department": "frontend"
+    }
+  ],
+  "status": 200
+}
