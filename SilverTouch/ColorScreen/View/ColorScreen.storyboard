@@ -30,7 +30,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What would you like?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCQ-As-10N">
-                                        <rect key="frame" x="16" y="254.33333333333331" width="361" height="42"/>
+                                        <rect key="frame" x="16" y="284.33333333333331" width="361" height="42"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                         <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -73,7 +73,6 @@
                                     <constraint firstItem="GSf-JS-QaK" firstAttribute="leading" secondItem="3bd-7T-myr" secondAttribute="leading" constant="16" id="KWg-DF-0Lo"/>
                                     <constraint firstItem="KCQ-As-10N" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dZk-f0-816" secondAttribute="bottom" constant="5" id="Rlw-My-8He"/>
                                     <constraint firstAttribute="trailing" secondItem="KCQ-As-10N" secondAttribute="trailing" constant="16" id="THd-Hf-AJH"/>
-                                    <constraint firstItem="GSf-JS-QaK" firstAttribute="top" secondItem="KCQ-As-10N" secondAttribute="bottom" constant="50" id="dY8-u9-h0O"/>
                                     <constraint firstItem="dZk-f0-816" firstAttribute="leading" secondItem="3bd-7T-myr" secondAttribute="leading" constant="16" id="e6P-gk-fWe"/>
                                     <constraint firstItem="dZk-f0-816" firstAttribute="top" secondItem="3bd-7T-myr" secondAttribute="top" constant="10" id="fbC-Ru-ooN"/>
                                     <constraint firstAttribute="trailing" secondItem="GSf-JS-QaK" secondAttribute="trailing" constant="16" id="gWU-P4-dIb"/>
@@ -103,7 +102,7 @@
     </scenes>
     <resources>
         <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

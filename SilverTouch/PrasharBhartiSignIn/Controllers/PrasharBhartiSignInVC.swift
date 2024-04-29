@@ -85,7 +85,11 @@ class PrasharBhartiSignInVC: UIViewController, UITextFieldDelegate {
         }
         return true
        }
-
+    
+    @IBAction func skipBtnTapped(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     // remember me tapped
     @IBAction func RememberMeTapped(_ sender: UIButton) {
         if sender.currentImage == UIImage(named: "unchecked") {

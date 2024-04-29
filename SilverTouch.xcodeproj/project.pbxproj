@@ -63,7 +63,14 @@
 		FFBA69292BC943E900C48DE1 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFBA69162BC943E900C48DE1 /* Poppins-SemiBoldItalic.ttf */; };
 		FFBA692A2BC943E900C48DE1 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFBA69172BC943E900C48DE1 /* Poppins-Thin.ttf */; };
 		FFBA692B2BC943E900C48DE1 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFBA69182BC943E900C48DE1 /* Poppins-ThinItalic.ttf */; };
+		FFC6D8C22BDF6BC600DC9BC8 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC6D8C12BDF6BC500DC9BC8 /* UserProfileVC.swift */; };
+		FFC6D8C42BDF6BD000DC9BC8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC6D8C32BDF6BD000DC9BC8 /* UserModel.swift */; };
 		FFC88BAA2BCE395200F8A21C /* StudentDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC88BA92BCE395200F8A21C /* StudentDataSourceDelegate.swift */; };
+		FFE51F1D2BDF822200DE3F20 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE51F1C2BDF822200DE3F20 /* UserProfile.storyboard */; };
+		FFE51F202BDF849A00DE3F20 /* UserProfileTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE51F1E2BDF849A00DE3F20 /* UserProfileTVC.swift */; };
+		FFE51F212BDF849A00DE3F20 /* UserProfileTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE51F1F2BDF849A00DE3F20 /* UserProfileTVC.xib */; };
+		FFE51F232BDF8D7A00DE3F20 /* UserWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE51F222BDF8D7A00DE3F20 /* UserWebService.swift */; };
+		FFE51F252BDF99AC00DE3F20 /* UserDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE51F242BDF99AC00DE3F20 /* UserDataSourceDelegate.swift */; };
 		FFE8A3252BC8EA4C0085DEB1 /* HeyScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE8A3242BC8EA4C0085DEB1 /* HeyScreen.storyboard */; };
 		FFE8A3272BC8EA9D0085DEB1 /* HeyScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8A3262BC8EA9D0085DEB1 /* HeyScreenVC.swift */; };
 		FFE8A32E2BC8FAF90085DEB1 /* BiometricVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8A32D2BC8FAF90085DEB1 /* BiometricVC.swift */; };
@@ -150,7 +157,14 @@
 		FFBA69162BC943E900C48DE1 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		FFBA69172BC943E900C48DE1 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		FFBA69182BC943E900C48DE1 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FFC6D8C12BDF6BC500DC9BC8 /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
+		FFC6D8C32BDF6BD000DC9BC8 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = ../../../../../../Downloads/UserModel.swift; sourceTree = "<group>"; };
 		FFC88BA92BCE395200F8A21C /* StudentDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDataSourceDelegate.swift; sourceTree = "<group>"; };
+		FFE51F1C2BDF822200DE3F20 /* UserProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserProfile.storyboard; sourceTree = "<group>"; };
+		FFE51F1E2BDF849A00DE3F20 /* UserProfileTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTVC.swift; sourceTree = "<group>"; };
+		FFE51F1F2BDF849A00DE3F20 /* UserProfileTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserProfileTVC.xib; sourceTree = "<group>"; };
+		FFE51F222BDF8D7A00DE3F20 /* UserWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWebService.swift; sourceTree = "<group>"; };
+		FFE51F242BDF99AC00DE3F20 /* UserDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataSourceDelegate.swift; sourceTree = "<group>"; };
 		FFE8A3242BC8EA4C0085DEB1 /* HeyScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HeyScreen.storyboard; sourceTree = "<group>"; };
 		FFE8A3262BC8EA9D0085DEB1 /* HeyScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyScreenVC.swift; sourceTree = "<group>"; };
 		FFE8A32D2BC8FAF90085DEB1 /* BiometricVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricVC.swift; sourceTree = "<group>"; };
@@ -408,6 +422,7 @@
 		FF6044EE2BC7B57B00238E9C /* SilverTouch */ = {
 			isa = PBXGroup;
 			children = (
+				FFC6D8B92BDF6B7700DC9BC8 /* UserProfile */,
 				FFF0C3A52BD69E6D004B38DD /* ToDoList */,
 				FFF0C3962BD6926A004B38DD /* SideMenu */,
 				FF4B43702BD624BC0027E6B0 /* ComplexCollectionView */,
@@ -485,6 +500,60 @@
 				FFBA69182BC943E900C48DE1 /* Poppins-ThinItalic.ttf */,
 			);
 			path = "Poppins Font";
+			sourceTree = "<group>";
+		};
+		FFC6D8B92BDF6B7700DC9BC8 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				FFC6D8BE2BDF6BA300DC9BC8 /* Cell */,
+				FFC6D8BD2BDF6B9C00DC9BC8 /* Model */,
+				FFC6D8BC2BDF6B9600DC9BC8 /* Controller */,
+				FFC6D8BB2BDF6B8D00DC9BC8 /* View */,
+				FFC6D8BA2BDF6B8300DC9BC8 /* DataSourceDelegate */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		FFC6D8BA2BDF6B8300DC9BC8 /* DataSourceDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FFE51F242BDF99AC00DE3F20 /* UserDataSourceDelegate.swift */,
+			);
+			path = DataSourceDelegate;
+			sourceTree = "<group>";
+		};
+		FFC6D8BB2BDF6B8D00DC9BC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFE51F1C2BDF822200DE3F20 /* UserProfile.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFC6D8BC2BDF6B9600DC9BC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFC6D8C12BDF6BC500DC9BC8 /* UserProfileVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FFC6D8BD2BDF6B9C00DC9BC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFC6D8C32BDF6BD000DC9BC8 /* UserModel.swift */,
+				FFE51F222BDF8D7A00DE3F20 /* UserWebService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFC6D8BE2BDF6BA300DC9BC8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FFE51F1E2BDF849A00DE3F20 /* UserProfileTVC.swift */,
+				FFE51F1F2BDF849A00DE3F20 /* UserProfileTVC.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		FFC88BA82BCE391D00F8A21C /* StudentDataSourceDelegate */ = {
@@ -894,6 +963,7 @@
 				FF4B43842BD6270F0027E6B0 /* ComplexCollectionCVC.xib in Resources */,
 				FFF0C39E2BD692BD004B38DD /* SideMenu.storyboard in Resources */,
 				FFE8A3302BC8FB450085DEB1 /* Biometric.storyboard in Resources */,
+				FFE51F212BDF849A00DE3F20 /* UserProfileTVC.xib in Resources */,
 				FFBA69212BC943E900C48DE1 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				FFBA691F2BC943E900C48DE1 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				FF6045092BC7B62000238E9C /* PrasharBhartiSignIn.storyboard in Resources */,
@@ -902,6 +972,7 @@
 				FFF0C3A32BD69444004B38DD /* SideMenuTVC.xib in Resources */,
 				FF096E7C2BD791A0007B36B5 /* SideMenuList.plist in Resources */,
 				FFE8A3562BC908830085DEB1 /* STTLSignIn.storyboard in Resources */,
+				FFE51F1D2BDF822200DE3F20 /* UserProfile.storyboard in Resources */,
 				FFBA692A2BC943E900C48DE1 /* Poppins-Thin.ttf in Resources */,
 				FFBA691E2BC943E900C48DE1 /* Poppins-ExtraBold.ttf in Resources */,
 				FFBA69252BC943E900C48DE1 /* Poppins-Medium.ttf in Resources */,
@@ -932,9 +1003,11 @@
 				FF5431722BCFB98C00B6DE32 /* PeopleTVC.swift in Sources */,
 				FF54315D2BCF862200B6DE32 /* StudentWebService.swift in Sources */,
 				FFE8A34C2BC906CC0085DEB1 /* StackScreenVC.swift in Sources */,
+				FFE51F202BDF849A00DE3F20 /* UserProfileTVC.swift in Sources */,
 				FFF0C3A42BD69444004B38DD /* SideMenuTVC.swift in Sources */,
 				FF096E782BD78A99007B36B5 /* SideMenuModel.swift in Sources */,
 				FFF0C3AA2BD69E94004B38DD /* TodoListTVC.swift in Sources */,
+				FFC6D8C22BDF6BC600DC9BC8 /* UserProfileVC.swift in Sources */,
 				FFE8A33E2BC8FE810085DEB1 /* FheoryVC.swift in Sources */,
 				FF4B437F2BD6268F0027E6B0 /* PersonWebService.swift in Sources */,
 				FF48682A2BCD502F00A12C12 /* CountryTableVC.swift in Sources */,
@@ -944,12 +1017,15 @@
 				FF4B43792BD6259D0027E6B0 /* ComplexCollectionVC.swift in Sources */,
 				FFC88BAA2BCE395200F8A21C /* StudentDataSourceDelegate.swift in Sources */,
 				FF5431772BCFBCAA00B6DE32 /* PeopleModel.swift in Sources */,
+				FFE51F252BDF99AC00DE3F20 /* UserDataSourceDelegate.swift in Sources */,
 				FF48682E2BCD59BC00A12C12 /* DataSourceDelegate.swift in Sources */,
 				FF5431752BCFBBF400B6DE32 /* PeopleDataSourceDelegate.swift in Sources */,
 				FFE8A3342BC8FC8E0085DEB1 /* HellowWorldVC.swift in Sources */,
 				FF096E7A2BD78AD7007B36B5 /* SideMenuDataSourceDelegate.swift in Sources */,
 				FFE8A3532BC908160085DEB1 /* STTLSignInVC.swift in Sources */,
+				FFE51F232BDF8D7A00DE3F20 /* UserWebService.swift in Sources */,
 				FF6045072BC7B60300238E9C /* PrasharBhartiSignInVC.swift in Sources */,
+				FFC6D8C42BDF6BD000DC9BC8 /* UserModel.swift in Sources */,
 				FFE8A3272BC8EA9D0085DEB1 /* HeyScreenVC.swift in Sources */,
 				FFE8A3462BC9058C0085DEB1 /* ColorScreenVC.swift in Sources */,
 				FFE8A32E2BC8FAF90085DEB1 /* BiometricVC.swift in Sources */,
@@ -1113,7 +1189,7 @@
 				INFOPLIST_FILE = SilverTouch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = STTLSignUp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1145,7 +1221,7 @@
 				INFOPLIST_FILE = SilverTouch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = STTLSignUp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

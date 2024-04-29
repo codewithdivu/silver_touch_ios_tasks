@@ -11,6 +11,10 @@ class SideMenuTVC: UITableViewCell {
 
     @IBOutlet weak var lblTitle: UILabel!
     
+    @IBOutlet weak var titleIcon: UIImageView!
+    
+    @IBOutlet weak var sepView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
 
@@ -23,5 +27,6 @@ class SideMenuTVC: UITableViewCell {
     
     func configCell(data : SideMenuModel){
         lblTitle.text = data.TitleKey
+        titleIcon.image = UIImage(systemName: data.Image)
     }
 }

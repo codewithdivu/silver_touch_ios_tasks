@@ -16,18 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         setUpLeftMenu()
-        setUpInitialVC()
+//        setUpInitialVC()
         // Override point for customization after application launch.
         return true
     }
     
-    func setUpInitialVC(){
-        let story = UIStoryboard(name: "Main", bundle: nil)
-        let vc = story.instantiateViewController(withIdentifier: "ViewController")as! ViewController
-        let navcon = UINavigationController(rootViewController: vc)
-        window?.rootViewController = navcon
-        window?.makeKeyAndVisible()
-    }
+//    func setUpInitialVC(){
+//        let story = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = story.instantiateViewController(withIdentifier: "ViewController")as! ViewController
+//        let navcon = UINavigationController(rootViewController: vc)
+//        window?.rootViewController = navcon
+//        window?.makeKeyAndVisible()
+//    }
     
     private func setUpLeftMenu() {
         let storyboard = UIStoryboard(name:"SideMenu", bundle: nil)

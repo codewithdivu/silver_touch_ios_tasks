@@ -34,7 +34,7 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LQ9-Nx-zgB">
-                                <rect key="frame" x="62.666666666666657" y="57" width="302.33333333333337" height="1"/>
+                                <rect key="frame" x="62.666666666666657" y="57" width="286.33333333333337" height="1"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="g85-Aq-tDn"/>
@@ -50,7 +50,7 @@
                             <constraint firstItem="LQ9-Nx-zgB" firstAttribute="top" secondItem="cPT-nR-XE5" secondAttribute="bottom" constant="16" id="YDg-Hg-fKf"/>
                             <constraint firstItem="LQ9-Nx-zgB" firstAttribute="leading" secondItem="cPT-nR-XE5" secondAttribute="leading" id="cdW-Z5-MUI"/>
                             <constraint firstAttribute="bottom" secondItem="LQ9-Nx-zgB" secondAttribute="bottom" constant="8" id="fbA-Kp-UUJ"/>
-                            <constraint firstAttribute="trailing" secondItem="LQ9-Nx-zgB" secondAttribute="trailing" id="gIX-CT-6MZ"/>
+                            <constraint firstAttribute="trailing" secondItem="LQ9-Nx-zgB" secondAttribute="trailing" constant="16" id="gIX-CT-6MZ"/>
                             <constraint firstItem="cPT-nR-XE5" firstAttribute="leading" secondItem="7w3-9G-nxB" secondAttribute="trailing" constant="16" id="jly-Kd-tX2"/>
                         </constraints>
                     </view>
@@ -66,6 +66,8 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="lblTitle" destination="cPT-nR-XE5" id="gBD-1p-IZn"/>
+                <outlet property="sepView" destination="LQ9-Nx-zgB" id="VAJ-Zf-dyf"/>
+                <outlet property="titleIcon" destination="7w3-9G-nxB" id="GMO-Av-lTH"/>
             </connections>
             <point key="canvasLocation" x="171.75572519083968" y="41.549295774647888"/>
         </tableViewCell>
@@ -76,10 +78,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
-            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

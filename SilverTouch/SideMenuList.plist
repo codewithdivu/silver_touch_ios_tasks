@@ -5,8 +5,8 @@
 	<dict>
 		<key>storyboardID</key>
 		<string>Main</string>
-		<key>image</key>
-		<string>dashboard</string>
+		<key>Image</key>
+		<string>homekit</string>
 		<key>TitleKey</key>
 		<string>Dashboard</string>
 		<key>ControllerName</key>
@@ -14,89 +14,9 @@
 	</dict>
 	<dict>
 		<key>storyboardID</key>
-		<string>TodoList</string>
-		<key>image</key>
-		<string>dashboard</string>
-		<key>TitleKey</key>
-		<string>ToDoList</string>
-		<key>ControllerName</key>
-		<string>TodoListVC</string>
-	</dict>
-	<dict>
-		<key>storyboardID</key>
-		<string>ComplexCollection</string>
-		<key>image</key>
-		<string>dashboard</string>
-		<key>TitleKey</key>
-		<string>Complex Collection View</string>
-		<key>ControllerName</key>
-		<string>ComplexCollectionVC</string>
-	</dict>
-	<dict>
-		<key>storyboardID</key>
-		<string>PeopleTable</string>
-		<key>image</key>
-		<string>dashboard</string>
-		<key>TitleKey</key>
-		<string>People Table</string>
-		<key>ControllerName</key>
-		<string>PeopleTableVC</string>
-	</dict>
-	<dict>
-		<key>storyboardID</key>
-		<string>StudentTable</string>
-		<key>image</key>
-		<string>dashboard</string>
-		<key>TitleKey</key>
-		<string>Student Table</string>
-		<key>ControllerName</key>
-		<string>StudentTableVC</string>
-	</dict>
-	<dict>
-		<key>storyboardID</key>
-		<string>CountryTable</string>
-		<key>image</key>
-		<string>dashboard</string>
-		<key>TitleKey</key>
-		<string>Country Table</string>
-		<key>ControllerName</key>
-		<string>CountryTableVC</string>
-	</dict>
-	<dict>
-		<key>storyboardID</key>
-		<string>StackScreen</string>
-		<key>image</key>
-		<string>dashboard</string>
-		<key>TitleKey</key>
-		<string>Stack-Screen</string>
-		<key>ControllerName</key>
-		<string>StackScreenVC</string>
-	</dict>
-	<dict>
-		<key>storyboardID</key>
-		<string>ColorScreen</string>
-		<key>image</key>
-		<string>dashboard</string>
-		<key>TitleKey</key>
-		<string>Color-Screen</string>
-		<key>ControllerName</key>
-		<string>ColorScreenVC</string>
-	</dict>
-	<dict>
-		<key>storyboardID</key>
-		<string>Fheory</string>
-		<key>image</key>
-		<string>dashboard</string>
-		<key>TitleKey</key>
-		<string>Fheory</string>
-		<key>ControllerName</key>
-		<string>FheoryVC</string>
-	</dict>
-	<dict>
-		<key>storyboardID</key>
 		<string>HelloWorld</string>
-		<key>image</key>
-		<string>dashboard</string>
+		<key>Image</key>
+		<string>pencil.and.outline</string>
 		<key>TitleKey</key>
 		<string>Hello-World</string>
 		<key>ControllerName</key>
@@ -104,19 +24,9 @@
 	</dict>
 	<dict>
 		<key>storyboardID</key>
-		<string>Biometric</string>
-		<key>image</key>
-		<string>dashboard</string>
-		<key>TitleKey</key>
-		<string>Biometric</string>
-		<key>ControllerName</key>
-		<string>BiometricVC</string>
-	</dict>
-	<dict>
-		<key>storyboardID</key>
 		<string>HeyScreen</string>
-		<key>image</key>
-		<string>dashboard</string>
+		<key>Image</key>
+		<string>person.wave.2</string>
 		<key>TitleKey</key>
 		<string>Hey-Screen</string>
 		<key>ControllerName</key>
@@ -124,13 +34,103 @@
 	</dict>
 	<dict>
 		<key>storyboardID</key>
+		<string>Biometric</string>
+		<key>Image</key>
+		<string>touchid</string>
+		<key>TitleKey</key>
+		<string>Biometric</string>
+		<key>ControllerName</key>
+		<string>BiometricVC</string>
+	</dict>
+	<dict>
+		<key>storyboardID</key>
+		<string>Fheory</string>
+		<key>Image</key>
+		<string>square.2.stack.3d.bottom.filled</string>
+		<key>TitleKey</key>
+		<string>Fheory</string>
+		<key>ControllerName</key>
+		<string>FheoryVC</string>
+	</dict>
+	<dict>
+		<key>storyboardID</key>
+		<string>ColorScreen</string>
+		<key>Image</key>
+		<string>wand.and.stars</string>
+		<key>TitleKey</key>
+		<string>Color-Screen</string>
+		<key>ControllerName</key>
+		<string>ColorScreenVC</string>
+	</dict>
+	<dict>
+		<key>storyboardID</key>
+		<string>StackScreen</string>
+		<key>Image</key>
+		<string>square.stack.3d.up</string>
+		<key>TitleKey</key>
+		<string>Stack-Screen</string>
+		<key>ControllerName</key>
+		<string>StackScreenVC</string>
+	</dict>
+	<dict>
+		<key>storyboardID</key>
 		<string>PrasharBhartiSignIn</string>
-		<key>image</key>
-		<string>dashboard</string>
+		<key>Image</key>
+		<string>newspaper</string>
 		<key>TitleKey</key>
 		<string>Prashar Bharti</string>
 		<key>ControllerName</key>
 		<string>PrasharBhartiSignInVC</string>
+	</dict>
+	<dict>
+		<key>storyboardID</key>
+		<string>CountryTable</string>
+		<key>Image</key>
+		<string>square.grid.2x2</string>
+		<key>TitleKey</key>
+		<string>Country Table</string>
+		<key>ControllerName</key>
+		<string>CountryTableVC</string>
+	</dict>
+	<dict>
+		<key>storyboardID</key>
+		<string>StudentTable</string>
+		<key>Image</key>
+		<string>square.fill.text.grid.1x2</string>
+		<key>TitleKey</key>
+		<string>Student Table</string>
+		<key>ControllerName</key>
+		<string>StudentTableVC</string>
+	</dict>
+	<dict>
+		<key>storyboardID</key>
+		<string>PeopleTable</string>
+		<key>Image</key>
+		<string>table</string>
+		<key>TitleKey</key>
+		<string>People Table</string>
+		<key>ControllerName</key>
+		<string>PeopleTableVC</string>
+	</dict>
+	<dict>
+		<key>storyboardID</key>
+		<string>ComplexCollection</string>
+		<key>Image</key>
+		<string>square.grid.3x3</string>
+		<key>TitleKey</key>
+		<string>Complex Collection</string>
+		<key>ControllerName</key>
+		<string>ComplexCollectionVC</string>
+	</dict>
+	<dict>
+		<key>storyboardID</key>
+		<string>TodoList</string>
+		<key>Image</key>
+		<string>pencil.and.ellipsis.rectangle</string>
+		<key>TitleKey</key>
+		<string>ToDoList</string>
+		<key>ControllerName</key>
+		<string>TodoListVC</string>
 	</dict>
 </array>
 </plist>

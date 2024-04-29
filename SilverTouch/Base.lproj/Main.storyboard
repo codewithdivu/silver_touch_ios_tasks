@@ -20,12 +20,12 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q20-Pc-lNl">
-                                        <rect key="frame" x="16.000000000000004" y="10" width="39.333333333333343" height="39.333333333333343"/>
+                                        <rect key="frame" x="16.000000000000004" y="10" width="39.333333333333343" height="39.333333333333336"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="q20-Pc-lNl" secondAttribute="height" multiplier="1:1" id="mfO-VQ-wCc"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="sidebar.left" catalog="system" title="">
+                                        <buttonConfiguration key="configuration" style="plain" image="line.3.horizontal" catalog="system" title="">
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -33,7 +33,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dashboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdf-G1-SbP">
-                                        <rect key="frame" x="65.333333333333343" y="10" width="311.66666666666663" height="39.333333333333343"/>
+                                        <rect key="frame" x="65.333333333333343" y="10" width="311.66666666666663" height="39.333333333333336"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -86,7 +86,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="sidebar.left" catalog="system" width="128" height="93"/>
+        <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

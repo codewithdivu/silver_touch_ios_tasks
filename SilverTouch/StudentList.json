@@ -2,79 +2,154 @@
   "msg": "Success msg",
   "students": [
     {
+      "id": 1,
       "name": "Divyesh Mavadiya",
       "dob": "17-08-2003",
-      "department": "ios"
+      "department": "ios",
+      "sportsName": "Cricket",
+      "gender": "Male",
+      "address": "123, ABC Street, XYZ City",
+      "grades": [8.50, 7.25, 9.75, 6.00]
     },
     {
+      "id": 2,
       "name": "Priya Patel",
       "dob": "05-12-2002",
-      "department": "android"
+      "department": "android",
+      "sportsName": "Tennis",
+      "gender": "Female",
+      "address": "456, DEF Street, XYZ City",
+      "grades": [9.25, 8.75, 7.50, 8.00]
     },
     {
+      "id": 3,
       "name": "Rahul Sharma",
       "dob": "20-04-2001",
-      "department": "web"
+      "department": "web",
+      "sportsName": "Football",
+      "gender": "Male",
+      "address": "789, GHI Street, XYZ City",
+      "grades": [7.75, 6.50, 8.25, 9.00]
     },
     {
+      "id": 4,
       "name": "Ananya Gupta",
       "dob": "10-09-2004",
-      "department": "backend"
+      "department": "backend",
+      "sportsName": "Basketball",
+      "gender": "Female",
+      "address": "101, JKL Street, XYZ City",
+      "grades": [8.25, 9.00, 8.25, 7.75]
     },
     {
+      "id": 5,
       "name": "Amit Singh",
       "dob": "15-07-2000",
-      "department": "frontend"
+      "department": "frontend",
+      "sportsName": "Badminton",
+      "gender": "Male",
+      "address": "111, MNO Street, XYZ City",
+      "grades": [6.00, 8.50, 7.25, 9.25]
     },
     {
+      "id": 6,
       "name": "Neha Verma",
       "dob": "25-03-2003",
-      "department": "ios"
+      "department": "ios",
+      "sportsName": "Table Tennis",
+      "gender": "Female",
+      "address": "222, PQR Street, XYZ City",
+      "grades": [9.50, 7.00, 8.00, 8.00]
     },
     {
+      "id": 7,
       "name": "Karan Mehta",
       "dob": "08-11-2002",
-      "department": "android"
+      "department": "android",
+      "sportsName": "Volleyball",
+      "gender": "Male",
+      "address": "333, STU Street, XYZ City",
+      "grades": [8.00, 9.00, 7.50, 8.00]
     },
     {
+      "id": 8,
       "name": "Sneha Sharma",
       "dob": "12-06-2001",
-      "department": "web"
+      "department": "web",
+      "sportsName": "Chess",
+      "gender": "Female",
+      "address": "444, VWX Street, XYZ City",
+      "grades": [7.50, 8.00, 9.00, 6.00]
     },
     {
+      "id": 9,
       "name": "Vikram Patel",
       "dob": "30-01-2004",
-      "department": "backend"
+      "department": "backend",
+      "sportsName": "Swimming",
+      "gender": "Male",
+      "address": "555, YZA Street, XYZ City",
+      "grades": [8.25, 7.25, 9.75, 8.00]
     },
     {
+      "id": 10,
       "name": "Anjali Gupta",
       "dob": "14-10-2000",
-      "department": "frontend"
+      "department": "frontend",
+      "sportsName": "Athletics",
+      "gender": "Female",
+      "address": "666, BCD Street, XYZ City",
+      "grades": [9.25, 8.50, 7.00, 9.25]
     },
     {
+      "id": 11,
       "name": "Rajesh Kumar",
       "dob": "19-05-2003",
-      "department": "ios"
+      "department": "ios",
+      "sportsName": "Hockey",
+      "gender": "Male",
+      "address": "777, EFG Street, XYZ City",
+      "grades": [7.75, 9.00, 8.25, 7.75]
     },
     {
+      "id": 12,
       "name": "Ritu Singh",
       "dob": "07-09-2002",
-      "department": "android"
+      "department": "android",
+      "sportsName": "Cycling",
+      "gender": "Female",
+      "address": "888, HIJ Street, XYZ City",
+      "grades": [8.00, 7.25, 9.00, 8.00]
     },
     {
+      "id": 13,
       "name": "Aryan Sharma",
       "dob": "23-02-2001",
-      "department": "web"
+      "department": "web",
+      "sportsName": "Golf",
+      "gender": "Male",
+      "address": "999, KLM Street, XYZ City",
+      "grades": [9.00, 8.25, 7.00, 9.25]
     },
     {
+      "id": 14,
       "name": "Pooja Verma",
       "dob": "11-11-2004",
-      "department": "backend"
+      "department": "backend",
+      "sportsName": "Soccer",
+      "gender": "Female",
+      "address": "121, NOP Street, XYZ City",
+      "grades": [8.25, 9.00, 7.00, 8.00]
     },
     {
+      "id": 15,
       "name": "Rakesh Patel",
       "dob": "06-04-2000",
-      "department": "frontend"
+      "department": "frontend",
+      "sportsName": "Karate",
+      "gender": "Male",
+      "address": "131, QRS Street, XYZ City",
+      "grades": [7.50, 8.00, 9.00, 7.50]
     }
   ],
   "status": 200

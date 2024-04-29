@@ -74,6 +74,9 @@
                                                                         <buttonConfiguration key="configuration" style="plain" title="Logout">
                                                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </buttonConfiguration>
+                                                                        <connections>
+                                                                            <action selector="logoutTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="djj-Jc-rw1"/>
+                                                                        </connections>
                                                                     </button>
                                                                 </subviews>
                                                             </stackView>
@@ -119,7 +122,7 @@
                                         </constraints>
                                     </scrollView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="6ua-j1-2By" secondAttribute="trailing" id="jMf-Hg-ZwG"/>
                                     <constraint firstAttribute="bottom" secondItem="6ua-j1-2By" secondAttribute="bottom" id="lN0-0g-2CU"/>
@@ -175,8 +178,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="email" destination="tTi-o6-aV1" id="vKN-AX-xPT"/>
                         <outlet property="personImageView" destination="lWS-rZ-sUB" id="5Qb-1t-nGw"/>
                         <outlet property="tableView" destination="Swb-j4-MCf" id="9nj-6u-nYY"/>
+                        <outlet property="username" destination="xFO-gh-ADs" id="wey-L7-1eA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -191,10 +196,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray5Color">
-            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
-            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

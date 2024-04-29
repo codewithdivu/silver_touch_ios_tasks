@@ -39,5 +39,5 @@ class ComplexCollectionVC: UIViewController, ColViewDelegate {
             personDataSourceDelegate = .init(arrData: person, delegate: self, col: PersonCollectionView,vc:self)
         }
     }
-
+    
 }
