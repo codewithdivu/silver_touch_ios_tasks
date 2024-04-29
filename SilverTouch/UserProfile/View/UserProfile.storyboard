@@ -64,10 +64,10 @@
                                         <rect key="frame" x="0.0" y="30" width="393" height="729"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sy7-JS-EYp">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="1000"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="700"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ewa-ad-vcY">
-                                                        <rect key="frame" x="16" y="79" width="361" height="905"/>
+                                                        <rect key="frame" x="16" y="79" width="361" height="605"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Divyesh Mavadiya" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mL-0J-Pzn">
                                                                 <rect key="frame" x="0.0" y="70" width="361" height="31"/>
@@ -139,7 +139,7 @@
                                                                 </constraints>
                                                             </view>
                                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SMv-Rj-BAQ">
-                                                                <rect key="frame" x="0.0" y="250" width="361" height="639"/>
+                                                                <rect key="frame" x="0.0" y="250" width="361" height="339"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <connections>
                                                                     <outlet property="dataSource" destination="IdJ-db-oR3" id="ofz-Zk-tKY"/>
@@ -187,7 +187,7 @@
                                                     <constraint firstAttribute="bottom" secondItem="ewa-ad-vcY" secondAttribute="bottom" constant="16" id="5YO-AI-55S"/>
                                                     <constraint firstItem="ewa-ad-vcY" firstAttribute="top" secondItem="WDc-zz-Nhc" secondAttribute="centerY" id="Keo-aJ-mw5"/>
                                                     <constraint firstItem="ewa-ad-vcY" firstAttribute="leading" secondItem="sy7-JS-EYp" secondAttribute="leading" constant="16" id="OBj-BQ-it3"/>
-                                                    <constraint firstAttribute="height" constant="1000" id="cs6-KK-neL"/>
+                                                    <constraint firstAttribute="height" constant="700" id="cs6-KK-neL"/>
                                                     <constraint firstItem="WDc-zz-Nhc" firstAttribute="top" secondItem="sy7-JS-EYp" secondAttribute="top" constant="20" id="hGE-6V-t2b"/>
                                                     <constraint firstAttribute="trailing" secondItem="ewa-ad-vcY" secondAttribute="trailing" constant="16" id="zJj-kj-rTC"/>
                                                 </constraints>
