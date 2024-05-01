@@ -11,6 +11,14 @@
 		FF096E7A2BD78AD7007B36B5 /* SideMenuDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF096E792BD78AD7007B36B5 /* SideMenuDataSourceDelegate.swift */; };
 		FF096E7C2BD791A0007B36B5 /* SideMenuList.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF096E7B2BD791A0007B36B5 /* SideMenuList.plist */; };
 		FF096E7F2BD7A190007B36B5 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = FF096E7E2BD7A190007B36B5 /* SideMenu */; };
+		FF0A45DF2BE2190A00AF7F43 /* NewsListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A45DD2BE2190A00AF7F43 /* NewsListTVC.swift */; };
+		FF0A45E02BE2190A00AF7F43 /* NewsListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0A45DE2BE2190A00AF7F43 /* NewsListTVC.xib */; };
+		FF0A45E22BE219EC00AF7F43 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A45E12BE219EC00AF7F43 /* NewsModel.swift */; };
+		FF0A45E42BE21E9800AF7F43 /* NewsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A45E32BE21E9800AF7F43 /* NewsWebService.swift */; };
+		FF235E892BE1FE8D00BD3D4A /* NewsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF235E882BE1FE8D00BD3D4A /* NewsList.storyboard */; };
+		FF235E8B2BE1FEBB00BD3D4A /* NewsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF235E8A2BE1FEBB00BD3D4A /* NewsListVC.swift */; };
+		FF4348682BE22E4900CF4923 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4348672BE22E4800CF4923 /* News.storyboard */; };
+		FF43486A2BE23BA700CF4923 /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4348692BE23BA700CF4923 /* NewsVC.swift */; };
 		FF4868282BCD501500A12C12 /* CountryTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4868272BCD501500A12C12 /* CountryTable.storyboard */; };
 		FF48682A2BCD502F00A12C12 /* CountryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4868292BCD502F00A12C12 /* CountryTableVC.swift */; };
 		FF48682E2BCD59BC00A12C12 /* DataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48682D2BCD59BC00A12C12 /* DataSourceDelegate.swift */; };
@@ -27,6 +35,8 @@
 		FF4B437F2BD6268F0027E6B0 /* PersonWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4B437E2BD6268F0027E6B0 /* PersonWebService.swift */; };
 		FF4B43832BD6270F0027E6B0 /* ComplexCollectionCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4B43812BD6270F0027E6B0 /* ComplexCollectionCVC.swift */; };
 		FF4B43842BD6270F0027E6B0 /* ComplexCollectionCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF4B43822BD6270F0027E6B0 /* ComplexCollectionCVC.xib */; };
+		FF4B757F2BE2168200485636 /* NewsListDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4B757E2BE2168200485636 /* NewsListDataSourceDelegate.swift */; };
+		FF4B75812BE217DF00485636 /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = FF4B75802BE217DF00485636 /* news.json */; };
 		FF54315B2BCF850D00B6DE32 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54315A2BCF850D00B6DE32 /* StudentModel.swift */; };
 		FF54315D2BCF862200B6DE32 /* StudentWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54315C2BCF862200B6DE32 /* StudentWebService.swift */; };
 		FF54315F2BCF94FE00B6DE32 /* StudentList.json in Resources */ = {isa = PBXBuildFile; fileRef = FF54315E2BCF94FE00B6DE32 /* StudentList.json */; };
@@ -45,6 +55,9 @@
 		FF6044FC2BC7B57C00238E9C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FF6044FB2BC7B57C00238E9C /* Base */; };
 		FF6045072BC7B60300238E9C /* PrasharBhartiSignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6045062BC7B60300238E9C /* PrasharBhartiSignInVC.swift */; };
 		FF6045092BC7B62000238E9C /* PrasharBhartiSignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6045082BC7B62000238E9C /* PrasharBhartiSignIn.storyboard */; };
+		FFA6D9342BE262ED002286F8 /* NewsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA6D9332BE262ED002286F8 /* NewsCVC.xib */; };
+		FFA6D9352BE262ED002286F8 /* NewsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA6D9322BE262ED002286F8 /* NewsCVC.swift */; };
+		FFA6D9372BE26855002286F8 /* NewsCollectionDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA6D9362BE26855002286F8 /* NewsCollectionDataSourceDelegate.swift */; };
 		FFBA691A2BC943E900C48DE1 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFBA69072BC943E900C48DE1 /* Poppins-Black.ttf */; };
 		FFBA691B2BC943E900C48DE1 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFBA69082BC943E900C48DE1 /* Poppins-BlackItalic.ttf */; };
 		FFBA691C2BC943E900C48DE1 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFBA69092BC943E900C48DE1 /* Poppins-Bold.ttf */; };
@@ -103,6 +116,14 @@
 		FF096E772BD78A99007B36B5 /* SideMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
 		FF096E792BD78AD7007B36B5 /* SideMenuDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuDataSourceDelegate.swift; sourceTree = "<group>"; };
 		FF096E7B2BD791A0007B36B5 /* SideMenuList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SideMenuList.plist; sourceTree = "<group>"; };
+		FF0A45DD2BE2190A00AF7F43 /* NewsListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTVC.swift; sourceTree = "<group>"; };
+		FF0A45DE2BE2190A00AF7F43 /* NewsListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsListTVC.xib; sourceTree = "<group>"; };
+		FF0A45E12BE219EC00AF7F43 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		FF0A45E32BE21E9800AF7F43 /* NewsWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWebService.swift; sourceTree = "<group>"; };
+		FF235E882BE1FE8D00BD3D4A /* NewsList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsList.storyboard; sourceTree = "<group>"; };
+		FF235E8A2BE1FEBB00BD3D4A /* NewsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListVC.swift; sourceTree = "<group>"; };
+		FF4348672BE22E4800CF4923 /* News.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		FF4348692BE23BA700CF4923 /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
 		FF4868272BCD501500A12C12 /* CountryTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CountryTable.storyboard; sourceTree = "<group>"; };
 		FF4868292BCD502F00A12C12 /* CountryTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableVC.swift; sourceTree = "<group>"; };
 		FF48682D2BCD59BC00A12C12 /* DataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +140,8 @@
 		FF4B437E2BD6268F0027E6B0 /* PersonWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonWebService.swift; sourceTree = "<group>"; };
 		FF4B43812BD6270F0027E6B0 /* ComplexCollectionCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexCollectionCVC.swift; sourceTree = "<group>"; };
 		FF4B43822BD6270F0027E6B0 /* ComplexCollectionCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComplexCollectionCVC.xib; sourceTree = "<group>"; };
+		FF4B757E2BE2168200485636 /* NewsListDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListDataSourceDelegate.swift; sourceTree = "<group>"; };
+		FF4B75802BE217DF00485636 /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
 		FF54315A2BCF850D00B6DE32 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 		FF54315C2BCF862200B6DE32 /* StudentWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentWebService.swift; sourceTree = "<group>"; };
 		FF54315E2BCF94FE00B6DE32 /* StudentList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StudentList.json; sourceTree = "<group>"; };
@@ -139,6 +162,9 @@
 		FF6044FD2BC7B57C00238E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF6045062BC7B60300238E9C /* PrasharBhartiSignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrasharBhartiSignInVC.swift; sourceTree = "<group>"; };
 		FF6045082BC7B62000238E9C /* PrasharBhartiSignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PrasharBhartiSignIn.storyboard; sourceTree = "<group>"; };
+		FFA6D9322BE262ED002286F8 /* NewsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCVC.swift; sourceTree = "<group>"; };
+		FFA6D9332BE262ED002286F8 /* NewsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCVC.xib; sourceTree = "<group>"; };
+		FFA6D9362BE26855002286F8 /* NewsCollectionDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionDataSourceDelegate.swift; sourceTree = "<group>"; };
 		FFBA69072BC943E900C48DE1 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
 		FFBA69082BC943E900C48DE1 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
 		FFBA69092BC943E900C48DE1 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
@@ -205,6 +231,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF235E812BE1FDF400BD3D4A /* NewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				FF235E872BE1FE5500BD3D4A /* Cells */,
+				FF235E862BE1FE3400BD3D4A /* DataSourceDelegate */,
+				FF235E852BE1FE2B00BD3D4A /* Controller */,
+				FF235E832BE1FE1700BD3D4A /* View */,
+				FF235E822BE1FE0D00BD3D4A /* Model */,
+			);
+			path = NewsApp;
+			sourceTree = "<group>";
+		};
+		FF235E822BE1FE0D00BD3D4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF0A45E12BE219EC00AF7F43 /* NewsModel.swift */,
+				FF0A45E32BE21E9800AF7F43 /* NewsWebService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF235E832BE1FE1700BD3D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF235E882BE1FE8D00BD3D4A /* NewsList.storyboard */,
+				FF4348672BE22E4800CF4923 /* News.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF235E852BE1FE2B00BD3D4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF235E8A2BE1FEBB00BD3D4A /* NewsListVC.swift */,
+				FF4348692BE23BA700CF4923 /* NewsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF235E862BE1FE3400BD3D4A /* DataSourceDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FF4B757E2BE2168200485636 /* NewsListDataSourceDelegate.swift */,
+				FFA6D9362BE26855002286F8 /* NewsCollectionDataSourceDelegate.swift */,
+			);
+			path = DataSourceDelegate;
+			sourceTree = "<group>";
+		};
+		FF235E872BE1FE5500BD3D4A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FF0A45DD2BE2190A00AF7F43 /* NewsListTVC.swift */,
+				FF0A45DE2BE2190A00AF7F43 /* NewsListTVC.xib */,
+				FFA6D9322BE262ED002286F8 /* NewsCVC.swift */,
+				FFA6D9332BE262ED002286F8 /* NewsCVC.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		FF4868242BCD4FEA00A12C12 /* CountryTable */ = {
 			isa = PBXGroup;
 			children = (
@@ -422,6 +507,7 @@
 		FF6044EE2BC7B57B00238E9C /* SilverTouch */ = {
 			isa = PBXGroup;
 			children = (
+				FF235E812BE1FDF400BD3D4A /* NewsApp */,
 				FFC6D8B92BDF6B7700DC9BC8 /* UserProfile */,
 				FFF0C3A52BD69E6D004B38DD /* ToDoList */,
 				FFF0C3962BD6926A004B38DD /* SideMenu */,
@@ -444,6 +530,7 @@
 				FF6044F82BC7B57C00238E9C /* Assets.xcassets */,
 				FF6044FA2BC7B57C00238E9C /* LaunchScreen.storyboard */,
 				FF6044FD2BC7B57C00238E9C /* Info.plist */,
+				FF4B75802BE217DF00485636 /* news.json */,
 				FF5431782BCFBD4E00B6DE32 /* PeopleList.json */,
 				FF54315E2BCF94FE00B6DE32 /* StudentList.json */,
 				FFBA69192BC943E900C48DE1 /* Poppins Font */,
@@ -943,6 +1030,7 @@
 				FFE8A3482BC905C40085DEB1 /* ColorScreen.storyboard in Resources */,
 				FFE8A35D2BC90AA30085DEB1 /* STTLSignUp.storyboard in Resources */,
 				FFBA69282BC943E900C48DE1 /* Poppins-SemiBold.ttf in Resources */,
+				FFA6D9342BE262ED002286F8 /* NewsCVC.xib in Resources */,
 				FF54315F2BCF94FE00B6DE32 /* StudentList.json in Resources */,
 				FF6044F72BC7B57B00238E9C /* Base in Resources */,
 				FFBA691C2BC943E900C48DE1 /* Poppins-Bold.ttf in Resources */,
@@ -950,6 +1038,7 @@
 				FFE8A34F2BC906EF0085DEB1 /* StackScreen.storyboard in Resources */,
 				FFBA69262BC943E900C48DE1 /* Poppins-MediumItalic.ttf in Resources */,
 				FF54316D2BCFB82800B6DE32 /* PeopleTable.storyboard in Resources */,
+				FF0A45E02BE2190A00AF7F43 /* NewsListTVC.xib in Resources */,
 				FFF0C3AF2BD6A2E3004B38DD /* TodoList.storyboard in Resources */,
 				FFBA69242BC943E900C48DE1 /* Poppins-LightItalic.ttf in Resources */,
 				FF48683C2BCD66D200A12C12 /* StudentTable.storyboard in Resources */,
@@ -958,6 +1047,7 @@
 				FFBA69222BC943E900C48DE1 /* Poppins-Italic.ttf in Resources */,
 				FFBA691B2BC943E900C48DE1 /* Poppins-BlackItalic.ttf in Resources */,
 				FFE8A33B2BC8FE6F0085DEB1 /* Fheory.storyboard in Resources */,
+				FF4348682BE22E4900CF4923 /* News.storyboard in Resources */,
 				FFBA69272BC943E900C48DE1 /* Poppins-Regular.ttf in Resources */,
 				FFBA69292BC943E900C48DE1 /* Poppins-SemiBoldItalic.ttf in Resources */,
 				FF4B43842BD6270F0027E6B0 /* ComplexCollectionCVC.xib in Resources */,
@@ -969,6 +1059,7 @@
 				FF6045092BC7B62000238E9C /* PrasharBhartiSignIn.storyboard in Resources */,
 				FF4868452BCD698900A12C12 /* StudentTVC.xib in Resources */,
 				FFBA69202BC943E900C48DE1 /* Poppins-ExtraLight.ttf in Resources */,
+				FF235E892BE1FE8D00BD3D4A /* NewsList.storyboard in Resources */,
 				FFF0C3A32BD69444004B38DD /* SideMenuTVC.xib in Resources */,
 				FF096E7C2BD791A0007B36B5 /* SideMenuList.plist in Resources */,
 				FFE8A3562BC908830085DEB1 /* STTLSignIn.storyboard in Resources */,
@@ -978,6 +1069,7 @@
 				FFBA69252BC943E900C48DE1 /* Poppins-Medium.ttf in Resources */,
 				FFF0C3A92BD69E94004B38DD /* TodoListTVC.xib in Resources */,
 				FFBA692B2BC943E900C48DE1 /* Poppins-ThinItalic.ttf in Resources */,
+				FF4B75812BE217DF00485636 /* news.json in Resources */,
 				FFE8A3372BC8FCB80085DEB1 /* HelloWorld.storyboard in Resources */,
 				FF4B43772BD6257F0027E6B0 /* ComplexCollection.storyboard in Resources */,
 				FFBA691D2BC943E900C48DE1 /* Poppins-BoldItalic.ttf in Resources */,
@@ -991,14 +1083,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0A45DF2BE2190A00AF7F43 /* NewsListTVC.swift in Sources */,
 				FF54316B2BCFB81000B6DE32 /* PeopleTableVC.swift in Sources */,
 				FF6044F42BC7B57B00238E9C /* ViewController.swift in Sources */,
+				FF235E8B2BE1FEBB00BD3D4A /* NewsListVC.swift in Sources */,
 				FF54315B2BCF850D00B6DE32 /* StudentModel.swift in Sources */,
 				FFF0C3B32BD6A322004B38DD /* TodoModel.swift in Sources */,
 				FF4868412BCD676B00A12C12 /* StudentTableVC.swift in Sources */,
 				FFE8A35A2BC909800085DEB1 /* STTLSignUpVC.swift in Sources */,
 				FF4868372BCD5BA600A12C12 /* CountryTVC.swift in Sources */,
 				FF4B437D2BD626490027E6B0 /* PersonModel.swift in Sources */,
+				FF4B757F2BE2168200485636 /* NewsListDataSourceDelegate.swift in Sources */,
 				FFF0C3B12BD6A308004B38DD /* TodoListVC.swift in Sources */,
 				FF5431722BCFB98C00B6DE32 /* PeopleTVC.swift in Sources */,
 				FF54315D2BCF862200B6DE32 /* StudentWebService.swift in Sources */,
@@ -1010,11 +1105,14 @@
 				FFC6D8C22BDF6BC600DC9BC8 /* UserProfileVC.swift in Sources */,
 				FFE8A33E2BC8FE810085DEB1 /* FheoryVC.swift in Sources */,
 				FF4B437F2BD6268F0027E6B0 /* PersonWebService.swift in Sources */,
+				FF0A45E42BE21E9800AF7F43 /* NewsWebService.swift in Sources */,
 				FF48682A2BCD502F00A12C12 /* CountryTableVC.swift in Sources */,
 				FF4B437B2BD626070027E6B0 /* CollectionSourceDelegate.swift in Sources */,
+				FF0A45E22BE219EC00AF7F43 /* NewsModel.swift in Sources */,
 				FFF0C3A02BD692E6004B38DD /* SideMenuVC.swift in Sources */,
 				FF6044F02BC7B57B00238E9C /* AppDelegate.swift in Sources */,
 				FF4B43792BD6259D0027E6B0 /* ComplexCollectionVC.swift in Sources */,
+				FF43486A2BE23BA700CF4923 /* NewsVC.swift in Sources */,
 				FFC88BAA2BCE395200F8A21C /* StudentDataSourceDelegate.swift in Sources */,
 				FF5431772BCFBCAA00B6DE32 /* PeopleModel.swift in Sources */,
 				FFE51F252BDF99AC00DE3F20 /* UserDataSourceDelegate.swift in Sources */,
@@ -1022,6 +1120,7 @@
 				FF5431752BCFBBF400B6DE32 /* PeopleDataSourceDelegate.swift in Sources */,
 				FFE8A3342BC8FC8E0085DEB1 /* HellowWorldVC.swift in Sources */,
 				FF096E7A2BD78AD7007B36B5 /* SideMenuDataSourceDelegate.swift in Sources */,
+				FFA6D9352BE262ED002286F8 /* NewsCVC.swift in Sources */,
 				FFE8A3532BC908160085DEB1 /* STTLSignInVC.swift in Sources */,
 				FFE51F232BDF8D7A00DE3F20 /* UserWebService.swift in Sources */,
 				FF6045072BC7B60300238E9C /* PrasharBhartiSignInVC.swift in Sources */,
@@ -1032,6 +1131,7 @@
 				FFF0C3B62BD6A3C2004B38DD /* TodoDataSourceDelegate.swift in Sources */,
 				FF4B43832BD6270F0027E6B0 /* ComplexCollectionCVC.swift in Sources */,
 				FF54317D2BCFC24100B6DE32 /* PeopleWebService.swift in Sources */,
+				FFA6D9372BE26855002286F8 /* NewsCollectionDataSourceDelegate.swift in Sources */,
 				FF4868462BCD698900A12C12 /* StudentTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1189,7 +1289,7 @@
 				INFOPLIST_FILE = SilverTouch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = STTLSignUp;
+				INFOPLIST_KEY_UIMainStoryboardFile = NewsList;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1221,7 +1321,7 @@
 				INFOPLIST_FILE = SilverTouch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = STTLSignUp;
+				INFOPLIST_KEY_UIMainStoryboardFile = NewsList;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

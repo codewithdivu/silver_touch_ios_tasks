@@ -1,0 +1,225 @@
+{
+  "msg": "Success msg",
+  "news": [
+    {
+      "id": 1,
+      "category": "business",
+      "heading": "After Job Cuts, Microsoft To Stop Increments This Year",
+      "readAgo": "1 min read",
+      "date": "May 11, 2024",
+      "time": "12:51 PM",
+      "content": "alskdjflaj sldjfklajsdkfjlkajsld jfaljsdfjla jsdlfjlajsdfjalsjdfja lksdjflka jskdjflakjsdklfj lajskldfj alksjdfkljaklsjdflk jaklsdjfkl",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 2,
+      "category": "business",
+      "heading": "Tesla's Market Cap Surpasses $1 Trillion Mark",
+      "readAgo": "2 mins read",
+      "date": "May 12, 2024",
+      "time": "10:23 AM",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 3,
+      "category": "business",
+      "heading": "Amazon Announces Expansion Plans to Enter New Markets",
+      "readAgo": "3 mins read",
+      "date": "May 13, 2024",
+      "time": "3:45 PM",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 4,
+      "category": "business",
+      "heading": "Google Launches New Venture Capital Arm for Startups",
+      "readAgo": "4 mins read",
+      "date": "May 14, 2024",
+      "time": "8:10 PM",
+      "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 5,
+      "category": "business",
+      "heading": "Apple Announces Record Quarterly Profits",
+      "readAgo": "5 mins read",
+      "date": "May 15, 2024",
+      "time": "6:55 AM",
+      "content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 6,
+      "category": "technology",
+      "heading": "New AI Breakthrough Enables Real-Time Language Translation",
+      "readAgo": "1 min read",
+      "date": "May 16, 2024",
+      "time": "12:51 PM",
+      "content": "alskdjflaj sldjfklajsdkfjlkajsld jfaljsdfjla jsdlfjlajsdfjalsjdfja lksdjflka jskdjflakjsdklfj lajskldfj alksjdfkljaklsjdflk jaklsdjfkl",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 7,
+      "category": "technology",
+      "heading": "New Quantum Computing Breakthrough Achieved",
+      "readAgo": "2 mins read",
+      "date": "May 17, 2024",
+      "time": "10:23 AM",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 8,
+      "category": "technology",
+      "heading": "SpaceX Launches New Satellites into Orbit",
+      "readAgo": "3 mins read",
+      "date": "May 18, 2024",
+      "time": "3:45 PM",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 9,
+      "category": "technology",
+      "heading": "Facebook Unveils New Virtual Reality Social Platform",
+      "readAgo": "4 mins read",
+      "date": "May 19, 2024",
+      "time": "8:10 PM",
+      "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 10,
+      "category": "technology",
+      "heading": "Apple Announces New Lineup of MacBooks",
+      "readAgo": "5 mins read",
+      "date": "May 20, 2024",
+      "time": "6:55 AM",
+      "content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 11,
+      "category": "entertainment",
+      "heading": "New Film 'Space Odyssey' Breaks Box Office Records",
+      "readAgo": "1 min read",
+      "date": "May 21, 2024",
+      "time": "12:51 PM",
+      "content": "alskdjflaj sldjfklajsdkfjlkajsld jfaljsdfjla jsdlfjlajsdfjalsjdfja lksdjflka jskdjflakjsdklfj lajskldfj alksjdfkljaklsjdflk jaklsdjfkl",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 12,
+      "category": "entertainment",
+      "heading": "New Album Release: Artist XYZ's Latest Album Tops Charts",
+      "readAgo": "2 mins read",
+      "date": "May 22, 2024",
+      "time": "10:23 AM",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 13,
+      "category": "entertainment",
+      "heading": "New Netflix Series 'Dark Matter' Captivates Audiences",
+      "readAgo": "3 mins read",
+      "date": "May 23, 2024",
+      "time": "3:45 PM",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 14,
+      "category": "entertainment",
+      "heading": "New Broadway Show 'The Odyssey' Receives Rave Reviews",
+      "readAgo": "4 mins read",
+      "date": "May 24, 2024",
+      "time": "8:10 PM",
+      "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 15,
+      "category": "entertainment",
+      "heading": "Hollywood Star XYZ Wins Best Actor Award",
+      "readAgo": "5 mins read",
+      "date": "May 25, 2024",
+      "time": "6:55 AM",
+      "content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 16,
+      "category": "sports",
+      "heading": "World Cup Finals: Brazil Defeats Germany in Thrilling Match",
+      "readAgo": "1 min read",
+      "date": "May 26, 2024",
+      "time": "12:51 PM",
+      "content": "alskdjflaj sldjfklajsdkfjlkajsld jfaljsdfjla jsdlfjlajsdfjalsjdfja lksdjflka jskdjflakjsdklfj lajskldfj alksjdfkljaklsjdflk jaklsdjfkl",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 17,
+      "category": "sports",
+      "heading": "Olympics 2024: USA Wins Gold in Men's Basketball",
+      "readAgo": "2 mins read",
+      "date": "May 27, 2024",
+      "time": "10:23 AM",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 18,
+      "category": "sports",
+      "heading": "Tennis: Newcomer XYZ Upsets Top Seed in Wimbledon",
+      "readAgo": "3 mins read",
+      "date": "May 28, 2024",
+      "time": "3:45 PM",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 19,
+      "category": "sports",
+      "heading": "Football: Messi Breaks Record for Most Goals in a Season",
+      "readAgo": "4 mins read",
+      "date": "May 29, 2024",
+      "time": "8:10 PM",
+      "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    },
+    {
+      "id": 20,
+      "category": "sports",
+      "heading": "Golf: Newcomer Wins Masters Tournament",
+      "readAgo": "5 mins read",
+      "date": "May 30, 2024",
+      "time": "6:55 AM",
+      "content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "imgUrl": "https://www.livemint.com/lm-img/img/2024/05/01/600x338/Astrazeneca_1714535054468_1714535060922.JPG",
+      "isBookmarked": false
+    }
+  ]
+}
